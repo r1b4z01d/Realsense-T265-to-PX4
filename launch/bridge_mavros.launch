@@ -1,7 +1,7 @@
 <launch>
   <arg name="ns" default="/"/>
-  <arg name="fcu_url" default="udp://:14540@localhost:14557"/>
-  <arg name="gcs_url" default="" />   <!-- GCS link is provided by SITL -->
+  <arg name="fcu_url" default="/dev/ttyTHS1:500000"/>
+  <arg name="gcs_url" default="udp://@192.168.86.34:14550" />   <!-- QGC running on Windows 10 -->
   <arg name="tgt_system" default="1" />
   <arg name="tgt_component" default="1" />
   
