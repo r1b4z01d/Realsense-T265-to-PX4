@@ -11,7 +11,7 @@ This package is a bridge from PX4 to the Realsense T265 camera, which provides o
 ## Installation
 These steps contain the installation process, software dependencies and building instructions.
 
-1. This is a ROS package, it assumes you have either ROS Kinetic (Ubuntu 16.04) or ROS Melodic (Ubuntu 18.04) installed, instructions can be found [here](http://wiki.ros.org/ROS/Installation). Please also make sure you install librealsense from [here](https://github.com/IntelRealSense/librealsense).
+1. This is a ROS package, it assumes you have either ROS Kinetic (Ubuntu 16.04) or ROS Melodic (Ubuntu 18.04) installed, instructions can be found [here](http://wiki.ros.org/ROS/Installation). Please also make sure you install librealsense from [here](https://github.com/IntelRealSense/librealsense). The specific installation instructions for Jetson Nano are located [here](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation_jetson.md).
 
 1. Install catkin and create your catkin workspace directory.
 
