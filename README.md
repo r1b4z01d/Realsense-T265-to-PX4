@@ -39,6 +39,12 @@ These steps contain the installation process, software dependencies and building
      sudo apt install ros-kinetic-mavros ros-kinetic-mavros-extras
      ```
 
+1. Don't forget to install the [GeographicLib](https://geographiclib.sourceforge.io/) datasets:
+   ```bash
+   wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
+   sudo bash ./install_geographiclib_datasets.sh   
+   ```
+
 1. Build the package:
 
    ```bash
