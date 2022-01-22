@@ -45,6 +45,11 @@ These steps contain the installation process, software dependencies and building
    sudo bash ./install_geographiclib_datasets.sh   
    ```
 
+1. Install the [realsense2_camera](https://github.com/IntelRealSense/realsense-ros#installation-instructions) package for access to T265 in ROS:
+   ```bash
+   sudo apt install ros-melodic-realsense2-camera
+   ```
+
 1. Build the package:
 
    ```bash
