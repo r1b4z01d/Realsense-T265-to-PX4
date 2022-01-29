@@ -50,6 +50,17 @@ These steps contain the installation process, software dependencies and building
    sudo apt install ros-melodic-realsense2-camera
    ```
 
+1. Install the ROS [Point Cloud Library](http://wiki.ros.org/pcl_ros) (PCL):
+
+   * Melodic
+     ```bash
+     sudo apt install ros-melodic-pcl-ros
+     ```
+   * Kinetic
+     ```bash
+     sudo apt install ros-kinetic-pcl-ros
+     ```
+
 1. Build the package:
 
    ```bash
