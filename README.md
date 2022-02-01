@@ -4,8 +4,11 @@
 This package is a bridge from PX4 to the Realsense T265 camera, which provides odometry data.
 
 ## Dependencies
-* ROS Kinetic (Ubuntu 16.04) or ROS Melodic (Ubuntu 18.04): [http://wiki.ros.org/ROS/Installation](http://wiki.ros.org/ROS/Installation)
 * librealsense: [https://github.com/IntelRealSense/librealsense](https://github.com/IntelRealSense/librealsense)
+
+   - For Jetson Nano [follow these instructions](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation_jetson.md) and install librealsense2
+
+* ROS Kinetic (Ubuntu 16.04) or ROS Melodic (Ubuntu 18.04): [http://wiki.ros.org/ROS/Installation](http://wiki.ros.org/ROS/Installation)
 
 
 ## Installation
